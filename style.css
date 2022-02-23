@@ -21,6 +21,7 @@ html {
 body {
     color: aliceblue;
     background-color: #212428;
+    padding: 50px;
 }
 
 hr {
@@ -208,7 +209,7 @@ hr {
 
 .WID,
 .small_text {
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     font-family: var(--primary-font);
 }
@@ -310,9 +311,9 @@ form div {
     display: block;
 }
 
-.submit-btn {
+button {
     box-shadow: var(--box-shadow);
-    height: 50px;
+    height: 40px;
     border: none;
     padding: 0;
     margin-left: 30px;
@@ -327,7 +328,7 @@ form {
     font-family: var(--primary-font);
 }
 
-.submit-btn:hover {
-    transition: 0.5s;
+button:hover {
+    transition: 1s;
     background-color: #1e2024;
 }
